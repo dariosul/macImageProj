@@ -1,1 +1,0 @@
-This is a lesring project for testing out Mac image editing tools.

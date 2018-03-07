@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111C114E1CFE312300EF9871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186B3C519F1846700F94471 /* AppDelegate.swift */; };
+		1156048819F75D5B00B7A5C8 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156048619F75D5B00B7A5C8 /* ImageViewController.swift */; };
+		1186B3CB19F1846700F94471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1186B3C919F1846700F94471 /* Main.storyboard */; };
+		1186B3CD19F1846700F94471 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1186B3CC19F1846700F94471 /* Images.xcassets */; };
+		1186B3D019F1846700F94471 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1186B3CE19F1846700F94471 /* LaunchScreen.xib */; };
+		11A51F701A3BA3DF00A71256 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1111C84A19F9A7F600C6992E /* GLKit.framework */; };
+		11CDA90C1AE0784A002B7527 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDA90B1AE0784A002B7527 /* OpenGLES.framework */; };
+		11E714E919F73CFB00C2C63E /* AlbumCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E714E819F73CFB00C2C63E /* AlbumCollectionViewController.swift */; };
+		11E714EB19F73D0F00C2C63E /* LightboxCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E714EA19F73D0F00C2C63E /* LightboxCollectionViewController.swift */; };
+		B5B8C39C1D04B0C4009F1153 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B8C39B1D04B0C4009F1153 /* AlbumCollectionViewCell.swift */; };
+		B5B8C39E1D04B5EA009F1153 /* LightboxCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B8C39D1D04B5EA009F1153 /* LightboxCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1111C84A19F9A7F600C6992E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1156048619F75D5B00B7A5C8 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = RawExposeEmbedded/ImageViewController.swift; sourceTree = "<group>"; };
+		1186B3C019F1846700F94471 /* RawExpose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RawExpose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1186B3C419F1846700F94471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = RawExposeEmbedded/Info.plist; sourceTree = "<group>"; };
+		1186B3C519F1846700F94471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = RawExposeEmbedded/AppDelegate.swift; sourceTree = "<group>"; };
+		1186B3CA19F1846700F94471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1186B3CC19F1846700F94471 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RawExposeEmbedded/Images.xcassets; sourceTree = "<group>"; };
+		1186B3CF19F1846700F94471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		11CDA90B1AE0784A002B7527 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		11E714E819F73CFB00C2C63E /* AlbumCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlbumCollectionViewController.swift; path = RawExposeEmbedded/AlbumCollectionViewController.swift; sourceTree = "<group>"; };
+		11E714EA19F73D0F00C2C63E /* LightboxCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LightboxCollectionViewController.swift; path = RawExposeEmbedded/LightboxCollectionViewController.swift; sourceTree = "<group>"; };
+		B5B8C39B1D04B0C4009F1153 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlbumCollectionViewCell.swift; path = RawExposeEmbedded/AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		B5B8C39D1D04B5EA009F1153 /* LightboxCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LightboxCollectionViewCell.swift; path = RawExposeEmbedded/LightboxCollectionViewCell.swift; sourceTree = "<group>"; };
+		B5B8C39F1D04E423009F1153 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1186B3BD19F1846700F94471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CDA90C1AE0784A002B7527 /* OpenGLES.framework in Frameworks */,
+				11A51F701A3BA3DF00A71256 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1186B3B719F1846700F94471 = {
+			isa = PBXGroup;
+			children = (
+				B5B8C39F1D04E423009F1153 /* README.md */,
+				1186B3C519F1846700F94471 /* AppDelegate.swift */,
+				11E714E819F73CFB00C2C63E /* AlbumCollectionViewController.swift */,
+				B5B8C39B1D04B0C4009F1153 /* AlbumCollectionViewCell.swift */,
+				11E714EA19F73D0F00C2C63E /* LightboxCollectionViewController.swift */,
+				B5B8C39D1D04B5EA009F1153 /* LightboxCollectionViewCell.swift */,
+				1156048619F75D5B00B7A5C8 /* ImageViewController.swift */,
+				1186B3C919F1846700F94471 /* Main.storyboard */,
+				1186B3CE19F1846700F94471 /* LaunchScreen.xib */,
+				1186B3CC19F1846700F94471 /* Images.xcassets */,
+				1186B3C419F1846700F94471 /* Info.plist */,
+				1186B3FB19F1BF4300F94471 /* Frameworks */,
+				1186B3C119F1846700F94471 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1186B3C119F1846700F94471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1186B3C019F1846700F94471 /* RawExpose.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1186B3FB19F1BF4300F94471 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11CDA90B1AE0784A002B7527 /* OpenGLES.framework */,
+				1111C84A19F9A7F600C6992E /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1186B3BF19F1846700F94471 /* RawExpose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1186B3DF19F1846800F94471 /* Build configuration list for PBXNativeTarget "RawExpose" */;
+			buildPhases = (
+				1186B3BC19F1846700F94471 /* Sources */,
+				1186B3BD19F1846700F94471 /* Frameworks */,
+				1186B3BE19F1846700F94471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RawExpose;
+			productName = RawExposeEmbedded;
+			productReference = 1186B3C019F1846700F94471 /* RawExpose.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1186B3B819F1846700F94471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Michael Balle-Pedersen";
+				TargetAttributes = {
+					1186B3BF19F1846700F94471 = {
+						CreatedOnToolsVersion = 6.3;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1186B3BB19F1846700F94471 /* Build configuration list for PBXProject "RawExposeEmbedded" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1186B3B719F1846700F94471;
+			productRefGroup = 1186B3C119F1846700F94471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1186B3BF19F1846700F94471 /* RawExpose */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1186B3BE19F1846700F94471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1186B3CB19F1846700F94471 /* Main.storyboard in Resources */,
+				1186B3D019F1846700F94471 /* LaunchScreen.xib in Resources */,
+				1186B3CD19F1846700F94471 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1186B3BC19F1846700F94471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111C114E1CFE312300EF9871 /* AppDelegate.swift in Sources */,
+				1156048819F75D5B00B7A5C8 /* ImageViewController.swift in Sources */,
+				11E714E919F73CFB00C2C63E /* AlbumCollectionViewController.swift in Sources */,
+				11E714EB19F73D0F00C2C63E /* LightboxCollectionViewController.swift in Sources */,
+				B5B8C39E1D04B5EA009F1153 /* LightboxCollectionViewCell.swift in Sources */,
+				B5B8C39C1D04B0C4009F1153 /* AlbumCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1186B3C919F1846700F94471 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1186B3CA19F1846700F94471 /* Base */,
+			);
+			name = Main.storyboard;
+			path = RawExposeEmbedded;
+			sourceTree = "<group>";
+		};
+		1186B3CE19F1846700F94471 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1186B3CF19F1846700F94471 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = RawExposeEmbedded;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1186B3DD19F1846800F94471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPRESSION = lossless;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1186B3DE19F1846800F94471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPRESSION = "respect-asset-catalog";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1186B3E019F1846800F94471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RawExposeEmbedded/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.RawExpose";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1186B3E119F1846800F94471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RawExposeEmbedded/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.RawExpose";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1186B3BB19F1846700F94471 /* Build configuration list for PBXProject "RawExposeEmbedded" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1186B3DD19F1846800F94471 /* Debug */,
+				1186B3DE19F1846800F94471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1186B3DF19F1846800F94471 /* Build configuration list for PBXNativeTarget "RawExpose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1186B3E019F1846800F94471 /* Debug */,
+				1186B3E119F1846800F94471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1186B3B819F1846700F94471 /* Project object */;
+}
